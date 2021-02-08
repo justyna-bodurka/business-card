@@ -8,20 +8,38 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <main class= "main">
-      <article>
-        <img src="avatar.png" alt = "zdjęcie imię i nazwisko"/>
-        <header>
-          <h1>Imię i Nazwisko</h1>
-          <p>stanowisko</p>
+    <main class="main">
+      <article class="person">
+        <img
+          class="person__picture"
+          src="avatar.png"
+          alt="zdjęcie imię i nazwisko"
+        />
+        <div>
+        <header class="person__info">
+          <h1 class="person__name">Imię i Nazwisko</h1>
+          <p class="person__position">stanowisko</p>
         </header>
-        <p>
-          Programista z kilkunastoletnim doświadczeniem, fotograf, operator
-          drona, właściciel Sokoła Millennium (na razie tylko z Lego), prelegent
-          i szkoleniowiec. Uwielbia eksperymentować z nowymi technologiami, w
-          swojej twórczości ocierając się o sztukę.
+        <p class="person__description person__description--with-margin">
+          Programista z
+          <strong class="special"> kilkunastoletnim doświadczeniem</strong>,
+          fotograf, operator drona, właściciel Sokoła Millennium (na razie tylko
+          z Lego), <strong class="special">prelegent i szkoleniowiec </strong>.
+          Uwielbia eksperymentować z nowymi technologiami, w swojej twórczości
+          ocierając się o sztukę.
         </p>
-        <p>W sieci: Facebook, GitHub, Instagram.</p>
+        <p class="person__description ">
+          W sieci:
+          <a class="person__link" href="https://www.facebook.com/justyna.bbbb/"
+            >Facebook</a
+          >,
+          <a
+            class="person__link"
+            href=" https://github.com/justyna-bodurka/business-card"
+            >GitHub</a
+          >, <a class="person__link" href="#">Instagram </a>.
+        </p>
+    </div>
       </article>
     </main>
   </body>
